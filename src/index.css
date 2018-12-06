@@ -7,8 +7,6 @@ body {
 
 h1 {
   text-transform: uppercase;
-  font-size: calc(1.6rem + 1.8vw);
-  line-height: 1.6em;
   font-family: 'Bungee Shade', cursive;
 }
 
@@ -104,6 +102,10 @@ h1 {
   background-color: rgba(176, 60, 81, 0.5);
 }
 @media only screen and (min-width: 500px) {
+
+  h1 {
+    font-size: calc(1.6rem + 1.8vw);
+  }
   .wrapper {
     grid-template-columns: 40px 40px 50px 10px 1fr 10px 50px 80px;
     grid-template-rows: 80px 250px 50px 10px 80px 40px 1fr 6px 50px 50px;
