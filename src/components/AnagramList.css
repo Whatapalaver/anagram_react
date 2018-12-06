@@ -1,0 +1,8 @@
+.anagramlist {
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  min-height: 68px;
+  padding: 10px;
+  display: flex;
+  line-height: 18px;
+}

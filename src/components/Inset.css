@@ -1,0 +1,29 @@
+.form {
+  background-color: #c4b2bc;
+  width: 95%;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.input {
+  background-color: #f6f9f7;
+  border-radius: 5px;
+  margin-right: 15px;
+  height: 20px;
+}
+
+.submit {
+  border-radius: 5px;
+  height: 25px;
+  margin-right: 15px;
+}
+
+reset-button {
+  width: 80px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 1.4em;
+  color: #aab8c2;
+}
