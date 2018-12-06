@@ -8,7 +8,7 @@ body {
 h1 {
   text-transform: uppercase;
   font-size: calc(1.6rem + 1.8vw);
-  line-height: 1.7em;
+  line-height: 1.6em;
   font-family: 'Bungee Shade', cursive;
 }
 
@@ -18,7 +18,7 @@ h1 {
   display: grid;
   grid-gap: 0px;
   grid-template-columns: 0.5fr 0.5fr 30px 5px 250px 5px 30px 1fr;
-  grid-template-rows: 0.3fr 1fr 30px 5px 0.4fr 40px 1.75fr 2px 30px 50px;
+  grid-template-rows: 0.2fr 1fr 30px 5px 0.4fr 40px 1.75fr 2px 30px 50px;
   background-color: #f6f9f7;
   color: #251e33;
 }
@@ -42,7 +42,7 @@ h1 {
 .b p {
   color: #f6f9f7;
   padding-left: 2px;
-  font-size: calc(1rem + 1.2vw);
+  
 }
 
 .c {

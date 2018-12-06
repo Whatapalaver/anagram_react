@@ -44,7 +44,7 @@ class Inset extends React.Component {
     let potentialAnagrams = this.state.orderedDictionary[orderedTestWord]
     if (!potentialAnagrams || potentialAnagrams.length === 1) {
       console.log(`There are no anagrams for ${this.word}`)
-      this.setState({results: []});
+      this.setState({results: ['Sorry - No anagrams available!']});
     } else {
       console.log(`Here are the anagrams for ${this.word}: `, potentialAnagrams.join(', '))
       this.setState({results: potentialAnagrams});

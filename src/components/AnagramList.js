@@ -14,7 +14,9 @@ class AnagramList extends React.Component {
   render() {
     return (
       <div className="anagramlist">
-        <ul>{this.props.results.map(function(item) { return <AnagramListItem item={item}/> })}</ul>
+        <ul>{this.props.results.map(function(item) { 
+          return <AnagramListItem item={ item }/> })}
+        </ul>
       </div>
     );
   }
