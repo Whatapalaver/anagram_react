@@ -4,6 +4,10 @@ Anagram Solver - React Frontend
 This is the second part to a tech test where we were asked to demonstrate our JavaScript abilities with a simple anagram challenge. 
 The [part 1 test](https://github.com/Whatapalaver/anagram_solver_node) was completed in Node.js and fully TDD's with Jasmine. This version just takes that code with minimal tweaking, to demonstrate an interactive frontend.
 
+Currently hosted on [Heroku Anagram Solver](https://anagram-wolff.herokuapp.com/)
+
+![Anagram](./Anagram.png)
+
 ### _Original Challenge Instructions_
 
 Imagine you are in a work environment, and a colleague has asked you to create a simple interactive application which can solve anagrams.
