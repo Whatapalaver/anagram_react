@@ -15,9 +15,6 @@ class Inset extends React.Component {
   componentWillMount() {
     this.getGroupedDictionary()
   }
-  componentDidMount() {
-    this.returnAnagram()
-  }
 
   getGroupedDictionary() {
     let groupedDictionary = {}
@@ -44,14 +41,13 @@ class Inset extends React.Component {
       this.setState({results: []});
     } else {
       console.log(`Here are the anagrams for ${this.word}: `, potentialAnagrams.join(', '))
-      this.setState({results: [potentialAnagrams]});
-      // return potentialAnagrams.join(', ')
+      this.setState({results: potentialAnagrams});
     };
   };
 
   handleSubmit = async e => {
     e.preventDefault();
-    // stuff required
+    this.returnAnagram()
   };
 
   render() {
@@ -69,11 +65,11 @@ class Inset extends React.Component {
             onChange={e => this.setState({ word: e.target.value })}
           />
           <button className="submit" type="submit">Submit</button>
-          <span className="reset-button">
+          {/* <span className="reset-button">
             <i className="fa fa-reply" />
-          </span>
+          </span> */}
         </form>
-        <AnagramList />
+        <AnagramList results={this.state.results}/>
       </div>
     );
   }

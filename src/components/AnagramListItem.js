@@ -2,24 +2,17 @@ import React from "react";
 import './AnagramListItem.css'
 
 class AnagramListItem extends React.Component {
-  state = {
-    
-  };
+  constructor(props) {
+    super(props);
 
+    this.state = {
+    }
+  }
 
   render() {
     return (
       <div className="anagramList">
-        <p>Anagram</p>
-        <p>Anagram2</p>
-        <p>Anagram</p>
-        <p>Anagram2</p>
-        <p>Anagram</p>
-        <p>Anagram2</p>
-        <p>Anagram</p>
-        <p>Anagram2</p>
-        <p>Anagram</p>
-        <p>Anagram2</p>
+        <li>{this.props.item}</li>
       </div>
     );
   }

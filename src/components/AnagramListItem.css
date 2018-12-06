@@ -1,5 +1,7 @@
-.anagramList p {
+.anagramList li {
   font-family: 'Zilla Slab Highlight', cursive;
   letter-spacing: 5px;
   font-size: calc(1rem + 1.2vw);
+  list-style-type: none;
+  padding-top: 5px;
 }

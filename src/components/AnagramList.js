@@ -3,15 +3,18 @@ import AnagramListItem from './AnagramListItem'
 import './AnagramList.css'
 
 class AnagramList extends React.Component {
-  state = {
-    
-  };
+  constructor(props) {
+    super(props);
+
+    this.state = {
+    }
+  }
 
 
   render() {
     return (
       <div className="anagramlist">
-        <AnagramListItem />
+        <ul>{this.props.results.map(function(item) { return <AnagramListItem item={item}/> })}</ul>
       </div>
     );
   }
