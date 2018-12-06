@@ -1,3 +1,4 @@
+module.exports.strData = `
 A
 A'asia
 A's
@@ -338879,4 +338880,4 @@ zzz
 évolué
 évolués
 événement
-événements
+événements`

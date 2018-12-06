@@ -2,11 +2,17 @@ import React from "react";
 import AnagramList from './AnagramList';
 import './Inset.css';
 
+//import the wordlist
+const dictionary = require('../dictionary.js');
+//convert wordlist string to array
+const dictionaryArray = dictionary.strData.split(/\s/);
+
 class Inset extends React.Component {
   state = {
-    dictionary: ['zone', 'zone', 'act', 'cat', 'tac', 'art',
-                 'rat', 'tar', 'spar', 'rasp', 'pars', 'raps', 'shed'
-                ],
+    // dictionary: ['zone', 'zone', 'act', 'cat', 'tac', 'art',
+    //              'rat', 'tar', 'spar', 'rasp', 'pars', 'raps', 'shed'
+    //             ],
+    dictionary: dictionaryArray,
     word: "",
     orderedDictionary: {},
     results: []

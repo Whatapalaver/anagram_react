@@ -46,7 +46,7 @@ You can see a full discussion of the anagram coding logic in the README to the [
 
 ### _Additional issues with React_
 
-I struggled to handle the text file with the allowable wordlist so I have mocked it up with a very small array. That significantly removes the joy of playing with the app but I will work on resolving it.
+I struggled to handle the text file with the allowable wordlist so initially mocked it up with a very small array. That significantly removes the joy of playing with the app. I have managed to connect to the local text file but loading is very slow and it causes the browser to complain about the handling time.
 
 I also need to correct the error on display of the individual results that occurs because I haven't added unique id's for each item.
 
