@@ -61,6 +61,10 @@ To Use
 - Change into the directory `cd anagram_react`
 - Install dependencies `npm install`
 
+Shout Outs
+---
+
+After deployment to Heroku I faced some memory exceptions relating to an unoptimised build. This article by Jeremy Gottfried proved to be useful in explaining how to easily set up an express server to serve a minified production build.  
 
 ## Available Scripts
 
